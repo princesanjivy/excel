@@ -422,8 +422,7 @@ class _Save {
         XmlAttribute(XmlName('borderId'), '0'),
         XmlAttribute(XmlName('fillId'),
             '${backgroundIndex == -1 ? 0 : (backgroundIndex + _excel._patternFill.length)}'),
-        XmlAttribute(XmlName('fontId'),
-            '${fontIndex == -1 ? 0 : (fontIndex + _excel._fontStyleList.length)}'),
+        XmlAttribute(XmlName('fontId'), '0'),
         XmlAttribute(XmlName('numFmtId'), '0'),
         XmlAttribute(XmlName('xfId'), '0'),
       ];
